@@ -8,7 +8,7 @@
 <body>
   <header class="main-header">
     <div class="container">
-      <img src="imgs/logo.png" alt="Логотип">
+      <img src="imgs/logo.png" alt="Логотип" width="187" height="75">
       <nav class="main-nav">
         <ul>
           <li><a href="#">Студия</a></li>
@@ -45,27 +45,90 @@
     </div>
   </header>
   
-  <div class="content">
-    <ul class="features">  
-      <li class="feature1">
-        <img src="template/imgs/feature1.jpg" alt="Веб-сайты">
-        <b class="feature-header">Веб-сайты</b>
-        <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-        <a class="btn feature1-btn" href="#">Заказать</a>
-      </li>
-      <li class="feature2">
-        <img src="template/imgs/feature2.jpg" alt="Приложения">
-        <b class="feature-header">Приложения</b>
-        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-        <a class="btn feature2-btn" href="#">Заказать</a>
-      </li>
-      <li class="feature3">
-        <img src="template/imgs/feature3.jpg" alt="Презентации">
-        <b class="feature-header">Презентации</b>
-        <p>Вы даже не представляете насколько вы изумительны!</p>
-        <a class="btn feature3-btn" href="#">Заказать</a>
-      </li>
-    </ul>
-    </div>
+  <div class="container">
+    <section class="content">
+      <ul class="features">  
+        <li class="feature1">
+          <img src="imgs/feature1.jpg" alt="Веб-сайты">
+          <b class="feature-header">Веб-сайты</b>
+          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+          <a class="btn feature1-btn" href="#">Заказать</a>
+        </li>
+        <li class="feature2">
+          <img src="imgs/feature2.jpg" alt="Приложения">
+          <b class="feature-header">Приложения</b>
+          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+          <a class="btn feature2-btn" href="#">Заказать</a>
+        </li>
+        <li class="feature3">
+          <img src="imgs/feature3.jpg" alt="Презентации">
+          <b class="feature-header">Презентации</b>
+          <p>Вы даже не представляете насколько вы изумительны!</p>
+          <a class="btn feature3-btn" href="#">Заказать</a>
+        </li>
+      </ul>
+      <section class="about">
+        <div class="about-left">
+          <b class="about-tutle">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+          <p>Исповедуем принцип минимализма и чистоты. Ставим математический рассчёт выше креатива. Работаем не покладая рук, как роботы.</p>
+          <h2 class="list-title">Выполняем заказы на разработку:</h2>
+          <ul>
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <div class="about-right">
+          <img src="imgs/logo.png" alt="Логотип" width="187" height="75">
+          <p class="since">SINCE 2004</p>
+          <h2 class="list-title">Как мы работаем:</h2>
+          <ul>
+            <li>С самоотдачей 146%</li>
+            <li>Соблюдая сроки на 100%</li>
+            <li>По предоплате 50%</li>
+          </ul>
+        </div>
+      </section>
+      <section class="partners">
+        <img src="imgs/partner1.png" alt="Партнёр 1" width="198" height="37">
+        <img src="imgs/partner2.png" alt="Партнёр 2" width="199" height="68">
+        <img src="imgs/partner3.png" alt="Партнёр 3" width="209" height="86">
+      </section>
+    </section>
+    <footer class="main-footer">
+      <div class="map-container">
+        <section class="address">
+          <b class="address-title">Nerds design studio</b>
+          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <button class="btn">Напишите нам</button>
+        </section>
+        <section class="write-us popup">
+          <button type="button" class="btn-close"> </button>
+          <form action="#" method="post">
+            <input type="text" name="name" id="name" class="name" placeholder="Представьтесь, пожалуйста">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="email" id="email" class="email" placeholder="Для отправки ответа">
+            <label for="email">Ваш e-mail:</label>
+            <textarea name="msg" id="msg" placeholder="В свободной форме" class="msg" rows="8" cols="40"> </textarea> 
+            <label for="msg">Текст письма:</label>
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </section>
+        <img src="template/imgs/map-marker.png" alt="Мы тут" class="map-marker" width="231" height="190">
+      </div>
+      <div class="content">
+        <ul class="footer-left">
+          <li class="social"><a href="#" class="social-vk"> </a></li>
+          <li class="social"><a href="#" class="social-fb"> </a></li>
+          <li class="social"><a href="#" class="social-ins"> </a></li>
+        </ul>
+        <div class="footer-right">
+          <b class="footer-title">Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей</p>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
