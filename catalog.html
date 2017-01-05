@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" media="screen" href="template/css/main.css">
+<title>НЕРДС</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <img src="imgs/logo.png" alt="Логотип" width="187" height="75">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <a class="cart-link" href="#">Корзина</a>
+      
+      <p class="shop-title">
+        Добро пожаловать в магазин готовых макетов
+      </p>
+    </div>
+  </header>
+  
+  <div class="container">
+    <section class="content">
+      <div class="shop-left">
+        <fieldset class="price-range">
+          <figcaption class="filter-title">Стоимость:</figcaption>
+          <div class="price-trigger">
+            <div class="price-bar">
+              <div class="price-bar-min"> </div>
+              <div class="price-bar-max"> </div>
+            </div>
+          </div>
+          <input type="tel" pattern="[0-9]" value="0" class="price-min" id="price-min" name="price-min">
+          <label for="price-min">От</label>
+          <input type="tel" pattern="[0-9]" value="15000" class="price-max" id="price-max" name="price-max">
+          <label for="price-min">До</label>
+          </fieldset>
+          <fieldset class="web-type">
+            <figcaption class="filter-title">Сетка:</figcaption>
+            <input type="radio" class="web1" name="web-type" id="web1" checked>
+            <label for="web1">Адаптивная</label>
+            <input type="radio" class="web2" name="web-type" id="web2">
+            <label for="web2">Фиксированная</label>
+            <input type="radio" class="web3" name="web-type" id="web3 ">
+            <label for="web3">Резиновая</label>
+          </fieldset>
+          <fieldset class="specials">
+            <figcaption class="specials-title">Особенности</figcaption>
+            <input type="checkbox" class="special1" name="special1" id="special1" checked>
+            <label for="special1">Слайдер</label>
+            <input type="checkbox" class="special2" name="special2" id="special2">
+            <label for="special2">Блок преимуществ</label>
+            <input type="checkbox" class="special3" name="special3" id="special3" checked>
+            <label for="special3">Новости</label>
+            <input type="checkbox" class="special4" name="special4" id="special4">
+            <label for="special4">Галерея</label>
+            <input type="checkbox" class="special5" name="special5" id="special5" checked>
+            <label for="special5">Корзина</label>
+          </fieldset>
+        </div>
+        
+        <div class="shop-right">
+          <section class="controls">
+            <p class="controls-title">Сортировать:</p>
+            <button type="button" class="for-price">По цене</button>
+            <button type="button" class="for-type">По типу</button>
+            <button type="button" class="for-func">По функционалу</button>
+            
+            <fieldset class="order">
+              <input type="radio" class="desc" name="order" id="desc" checked>
+              <label for="desc"> </label>
+              <input type="radio" class="asc" name="order" id="asc">
+              <label for="asc"> </label>
+            </fieldset>
+          </section>
+          
+          <article class="site1">
+            <div class="decor"> </div>
+            <img src="imgs/site1.jpg" alt="Сайт 1" width="240" height="240">
+            <section class="site-description">
+              <b class="site-title">Aviator</b>
+              <p>Одностраничный макет с авторским дизайном</p>
+              <button class="btn">8000 р.</button>
+            </section>
+          </article>
+          <article class="site2">
+            <div class="decor"> </div>
+            <img src="imgs/site2.jpg" alt="Сайт 2" width="240" height="240">
+            <section class="site-description">
+              <b class="site-title">Sunset</b>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <button class="btn">10000 р.</button>
+            </section>
+          </article>
+          <article class="site3">
+            <div class="decor"> </div>
+            <img src="imgs/site3.jpg" alt="Сайт 3" width="240" height="240">
+            <section class="site-description">
+              <b class="site-title">Forte</b>
+              <p>Отличный макет для личного блога</p>
+              <button class="btn">5000 р.</button>
+            </section>
+          </article>
+          <article class="site4">
+            <div class="decor"> </div>
+            <img src="imgs/site4.jpg" alt="Сайт 4" width="240" height="240">
+            <section class="site-description">
+              <b class="site-title">Modern Organic Thai</b>
+              <p>Сайт для ресторана быстрого питания</p>
+              <button class="btn">12000 р.</button>
+            </section>
+          </article>
+          <article class="site5">
+            <div class="decor"> </div>
+            <img src="imgs/site5.jpg" alt="Сайт 5" width="240" height="240">
+            <section class="site-description">
+              <b class="site-title">Avenue</b>
+              <p>Макет для блога о путешествиях</p>
+              <button class="btn">8000 р.</button>
+            </section>
+          </article>
+          <article class="site6">
+            <div class="decor"> </div>
+            <img src="imgs/site6.jpg" alt="Сайт 6" width="240" height="240">
+            <section class="site-description">
+              <b class="site-title">Dovetail</b>
+              <p>Интернет-магазин с галереей товаров</p>
+              <button class="btn">14000 р.</button>
+            </section>
+          </article>
+          <ul class="pagination">
+            <li>
+              <a href="#" class="current">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">Следующая</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    <footer class="main-footer">
+      <div class="map-container">
+        <section class="address">
+          <b class="address-title">Nerds design studio</b>
+          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <button class="btn">Напишите нам</button>
+        </section>
+        <section class="write-us popup">
+          <button type="button" class="btn-close"> </button>
+          <form action="#" method="post">
+            <input type="text" name="name" id="name" class="name" placeholder="Представьтесь, пожалуйста">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="email" id="email" class="email" placeholder="Для отправки ответа">
+            <label for="email">Ваш e-mail:</label>
+            <textarea name="msg" id="msg" class="msg" rows="8" cols="40" placeholder="В свободной форме"></textarea> 
+            <label for="msg">Текст письма:</label>
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </section>
+        <img src="template/imgs/map-marker.png" alt="Мы тут" class="map-marker" width="231" height="190">
+      </div>
+      <div class="content">
+        <ul class="footer-left">
+          <li class="social"><a href="#" class="social-vk"> </a></li>
+          <li class="social"><a href="#" class="social-fb"> </a></li>
+          <li class="social"><a href="#" class="social-ins"> </a></li>
+        </ul>
+        <div class="footer-right">
+          <b class="footer-title">Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
